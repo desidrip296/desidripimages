@@ -1,0 +1,98 @@
+/* General Styling */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    padding: 15px;
+}
+
+.hero {
+    height: 100vh;
+    background: url('your-hero-image-url.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.collection-section {
+    padding: 60px 0;
+}
+
+.collection-section h2 {
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #333;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #fff;
+}
+
+.about-section {
+    background-color: #111;
+    padding: 60px 0;
+}
+
+.contact-section {
+    padding: 60px 0;
+}
+
+.contact-section .btn {
+    margin-top: 20px;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: #111;
+    color: #fff;
+}
+
+.footer p {
+    margin: 0;
+}
+/* Circular logo styling */
+.logo-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 150px; /* Set the size of the logo */
+    height: 150px;
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image fits inside the circle */
+    border: 4px solid #fff; /* Optional: Add a white border around the logo */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Optional: Add a subtle shadow for effect */
+}
+/* Footer hover effects */
+footer a:hover {
+    color: #f1c40f; /* Change color to a golden-yellow on hover */
+    text-decoration: none; /* Remove underline */
+}
+
+footer i:hover {
+    color: #f1c40f; /* Change icon color on hover */
+}
+
